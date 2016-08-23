@@ -3,7 +3,7 @@
     {
       "name"      : "nodeAndExpressDemo",
       "cwd"       : "/D/nodeAndExpressDemo",
-      "script"    : "run.js",
+      "script"    : "app.js",
       "exec_mode" : "cluster",
       "node_args" : "--harmony",
       "watch"     : ["server"],

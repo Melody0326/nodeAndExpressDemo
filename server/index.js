@@ -12,5 +12,12 @@ router.route('/')
 			title:data.aa
 		})
 	});
+router.route('/getname')
+	.get((req,res)=>{
+		var data = req.query;
+		res.render('index',{
+			name:data.name
+		})
+	});
 
 module.exports = router;
