@@ -16,7 +16,7 @@ config/pm2/zhengdewei.json做为启动文件，script是启动文件地址。
 
 
 ### server/index.js     
-使用epress路由，
+使用express路由，
 访问index或者访问/getname 后对请求进行处理，并渲染jade模版引擎    
 
 ### public/view/index.jade
